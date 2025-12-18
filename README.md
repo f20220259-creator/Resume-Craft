@@ -4,7 +4,6 @@
   <img src="ARCHITECTURE FINAL.png" alt="ResumeCraft Architecture" width="900"/>
 </p>
 
----
 
 Welcome to the ResumeCraft ecosystem. This documentation serves as a comprehensive guide for the installation, configuration, and operation of the local AI Resume Consultant.  
 
@@ -25,7 +24,6 @@ To ensure optimal performance—particularly during inference—ensure the host 
 | Storage | 5 GB available space | SSD preferred |
 | Environment | Python 3.11+ | Python 3.11 |
 
----
 
 ## 2. Core Engine Setup: Ollama
 
