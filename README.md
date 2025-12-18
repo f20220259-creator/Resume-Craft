@@ -8,7 +8,6 @@ ResumeCraft is designed as a **fully local, reproducible, and privacy-preserving
 
 This repository serves as a **handover and implementation guide** for installing, configuring, and running ResumeCraft on local hardware.
 
----
 
 ## System Architecture (High-Level)
 
