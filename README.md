@@ -8,6 +8,19 @@ ResumeCraft is designed as a **fully local, reproducible, and privacy-preserving
 
 This repository serves as a **handover and implementation guide** for installing, configuring, and running ResumeCraft on local hardware.
 
+---
+
+## System Architecture
+
+<p align="center">
+  <img src="ARCHITECTURE FINAL.png" alt="ResumeCraft System Architecture" width="900"/>
+</p>
+
+<p align="center">
+  <em>End-to-end architecture of ResumeCraft illustrating resume and job description preprocessing, skill-gap analysis using a lightweight MLP adapter, and job-specific resume generation using the LLaMA-3 model executed locally via Ollama.</em>
+</p>
+
+---
 
 ## System Architecture (High-Level)
 
@@ -26,9 +39,9 @@ This repository serves as a **handover and implementation guide** for installing
 
 3. **Skill-Gap Analysis (MLP Adapter)**
    - Resume & JD embeddings (frozen embedder)
-   - Feature interaction (concat, abs-diff, element-wise product)
+   - Feature interaction (concatenation, absolute difference, element-wise product)
    - Lightweight MLP adapter
-   - Identification of missing / underrepresented skills
+   - Identification of missing or underrepresented skills
 
 4. **LLM-Based Resume Tailoring**
    - LLaMA-3 model executed locally via Ollama
@@ -38,7 +51,7 @@ This repository serves as a **handover and implementation guide** for installing
 5. **Output**
    - Fully tailored, job-aligned resume
 
-
+---
 
 ## 1. System Prerequisites
 
@@ -55,7 +68,7 @@ To ensure stable local inference and embedding computation:
 
 > ⚠️ GPU acceleration is optional but **strongly recommended** for faster LLM inference.
 
-
+---
 
 ## 2. Core Inference Engine: Ollama
 
