@@ -48,8 +48,6 @@ This repository serves as a **handover and implementation guide** for installing
 5. **Output**
    - Fully tailored, job-aligned resume
 
----
-
 ## 1. System Prerequisites
 
 To ensure stable local inference and embedding computation:
