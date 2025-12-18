@@ -38,7 +38,7 @@ This repository serves as a **handover and implementation guide** for installing
 5. **Output**
    - Fully tailored, job-aligned resume
 
----
+
 
 ## 1. System Prerequisites
 
@@ -55,7 +55,7 @@ To ensure stable local inference and embedding computation:
 
 > ⚠️ GPU acceleration is optional but **strongly recommended** for faster LLM inference.
 
----
+
 
 ## 2. Core Inference Engine: Ollama
 
